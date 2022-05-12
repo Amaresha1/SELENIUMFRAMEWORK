@@ -7,9 +7,12 @@ public class ContactTest
   @Test(groups = "SmokeTest")
   public void createcontactTest()
   {
-	  System.out.println("===Contact is created=="+System.getProperty("browser"));
-	 
+	  System.out.println("===Contact is created=="+System.getProperty("browser"))
+  }  
+  
+
   } 
+
   @Test(groups = "RegressionTest")
   public void editcontactTest() 
   {
